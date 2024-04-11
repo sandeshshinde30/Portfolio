@@ -1,0 +1,44 @@
+/* navbar */
+
+ 
+#name{
+    color:rgb(228, 89, 186);
+    font-size:30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #name:hover{
+    color :crimson; 
+  }
+  
+  #nav-item{
+      margin-right: 30px;
+      font-size: 20px;
+  }
+  
+  #nav-item:hover{
+    color :deeppink;
+  }
+
+  /* Navbar end*/
+
+body{
+  background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    color: rgb(66, 4, 138);
+    margin-top: 20px;
+  }
+
+section{
+  text-align: center;
+}  
+
+.Contact{
+  box-sizing: border-box;
+  border: 2px solid black;
+  max-width: 500px;
+  margin: 10px;
+}

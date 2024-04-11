@@ -1,0 +1,116 @@
+/* navbar */
+nav{
+  position: sticky;
+  top:0%;
+}
+body{
+  background-image: url('../IMAGES/Image\ 4.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+#name{
+  color:rgb(228, 89, 186);
+  font-size:30px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#name:hover{
+  color :crimson;
+}
+
+#nav-item{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#nav-item:hover{
+  color :deeppink;
+}
+
+/* navbar end */
+
+
+#main{
+  margin: 160px 0px 0px 160px;
+  color: rgb(247, 112, 180);
+  font-size: 45px;
+  font-weight: 500;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section{
+  padding:2rem 7%;
+}
+
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background:url(../images/home-img.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content{
+  max-width: 40rem;
+}
+
+.home .content h3{
+  font-size: 6rem;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+.home .content p{
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding:1rem 0;
+  color:#eee;
+}
+
+
+/* media queries  */
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+
+  .header{
+      padding:1.5rem 2rem;
+  }
+
+  section{
+      padding:2rem;
+  }
+
+}
+
+.home .content{
+  max-width: 60rem;
+}
+
+.home .content h3{
+  font-size: 4rem;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+
+
+.colorchange
+{
+   animation: colorchangeks 1s infinite;
+}
+
+@keyframes colorchangeks 
+{
+    0% {color: red;}
+    25%{color: #bf55ec;}
+    50%{color: rgb(255, 255, 255);}
+    100%{color: #ec55d3;}
+}

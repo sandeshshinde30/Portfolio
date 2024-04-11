@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<htmt>
+<head>
+    <title>Sandesh Cafe</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+
+        
+
+        <nav>
+            <div class="row">
+                <img src="../IMAGES/logo.jpg" alt="logo of cafe" class="logo">
+
+                <ul class="main-nav">
+                    <li><a href="">CAKE DELIVERY</a></li>
+                    <li><a href="">HOW TO ORDER</a></li>
+                    <li><a href="">CHECK MORE</a></li>
+                    <li><a href="Signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main-content-header">
+            <h1>WELCOME TO <br> 
+                <span class="colorchange">Sandesh CAFE</span>.<br>
+                HOUSE OF CAKE LOVER.</H1>
+                <a href="#" class="btn btn-full" onclick="button_event()">click to order</a>
+                <a href="#" class="btn btn-fill" onclick="button_event1()">show me more</a>
+
+                <div class="loginBox">
+		             
+                    <img src="../IMAGES/user.png" class="user">
+                    <h2>Log In Here</h2>
+                    <form onsubmit="return validateform()">
+                        <p>Email</p>
+                        <input type="text" id = "name" placeholder="Enter Email">
+                        <p>Password</p>
+                        <input type="password" id = "pass" placeholder="Enter Password">
+                        <input type="submit" name = "" id="submit" value="sign In">
+                        <a href="#"> Forget Password</a> 
+                        
+                    </form>
+                </div>
+
+                <script>  
+                    function validateform(){  
+                    var name=document.getElementById("name").value;
+                    var password=document.getElementById("pass").value;
+                    
+                    if (name==null || name==""){  
+                      alert("Name can't be blank");  
+                      return false;  
+                    }else if(password.length<6){  
+                      alert("Password must be at least 6 characters long.");  
+                      return false;  
+                      }  
+                    }  
+
+                    function button_event()
+                    {
+                        alert("You want to order.....");
+                    }
+                    function button_event1()
+                    {
+                        alert("You want to see more...");
+                    }
+                    </script>  
+        </div>
+    </header>
+    
+</body>
+</html>
