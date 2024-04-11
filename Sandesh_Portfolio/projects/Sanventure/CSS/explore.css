@@ -1,0 +1,124 @@
+#navbar{
+    background-color: black;
+    position: sticky;
+    top:0%;
+}
+header{
+    position:sticky;
+    top:0%;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+
+h2{
+    color: rgb(25, 0, 255);
+    margin-left: 10px;
+}
+
+#search-btn{
+    color:white;
+}
+
+#home{
+    margin-left: 20px;
+}
+
+body{
+    background-image: url('../Image/Explore\ 1.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#title{
+    margin: 200px 20px 20px 800px;
+}
+
+#sanventure{
+    color:darkred;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 1.3px 1.3px ;
+}
+
+#seven{
+    margin: 400px 75px 0px 700px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:rgb(0, 225, 255);
+    text-shadow: 1px 1px;
+    font-size: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#img-global{
+    height: 500px;
+    width: 1200px;
+    margin-left: 20px;
+    margin: 350px 20px 20px 75px;
+}
+
+#global-button{
+    margin: 510px 0px 0px 0px;
+    position: absolute;
+    left: 65%;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+#global-button:hover{
+    background-color: rgba(255, 0, 212, 0.678);
+}
+
+#img-wonder{
+    height: 500px;
+    width: 1200px;
+    float: left;
+    margin-left: 20px;
+    margin: 0px 20px 20px 75px;
+    overflow: hidden;
+}
+
+#wonder{
+    margin: 750px 20px 20px 700px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:crimson;
+    text-shadow: 1px 1px;
+    font-size: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+
+#wonder-seven{
+    margin: 200px 0px 0px 0px;
+}
+
+#footer1{
+    background-color:wheat;
+    margin: 50px 0px 0px 0px;
+    height: 50px;
+    padding: 10px;
+}
+
+#devloper{
+    margin: 0px 0px 0px 300px;
+  }
+  
+  #sandesh{
+      color: crimson;
+      margin: 0px 0px 0px 5px;
+      font-weight: bold;
+  }

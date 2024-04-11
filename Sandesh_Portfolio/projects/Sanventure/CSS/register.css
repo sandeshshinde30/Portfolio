@@ -1,0 +1,115 @@
+body{
+    background-image: url('../Image/log\ in\ background.jpg');
+}
+
+#navbar{
+    background-color: black;
+    
+}
+header{
+    position: sticky;
+    top:0%;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+
+h2{
+    color: rgb(25, 0, 255);
+    margin-left: 10px;
+}
+
+#search-btn{
+    color:white;
+}
+
+#home{
+    margin-left: 20px;
+}
+
+
+.form-group{
+    background-color: rgba(0,0,0,0.5);
+    margin: 10px 400px 0px 475px;
+    width: 400px;
+    padding: 40px 40px;
+    height: 640px;
+    max-width: 100%;
+} 
+
+#reg{
+    text-align: center;
+    color: crimson;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-family: cambria;
+    font-size:17px;
+    padding-bottom: 0px;
+    margin:0px;
+    padding: 0px;
+}
+
+.form-group input[type="text"], .form-group input[type="password"]{
+     margin-bottom: 20px;
+     border: none;
+     width: 100%;
+     background: transparent;
+     background-color: inherit;
+     border-bottom: 1px solid white;
+     color: rgb(238, 27, 245);
+}
+.form-group input[type="radio"]
+{
+  margin-bottom: 10px;
+}
+::placeholder{
+    color: gray;
+}
+
+label{
+    color:aliceblue;
+}
+
+#submit{
+
+    margin-top:10px;
+    border-radius: 20px;
+    width:100%;
+}
+
+#para{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#log{
+    color: crimson;
+}
+
+#footer1{
+    background-color:wheat;
+    margin: 50px 0px 0px 0px;
+    height: 50px;
+    padding: 10px;
+}
+
+#devloper{
+    margin: 0px 0px 0px 300px;
+  }
+  
+  #para1{
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    margin-left: 100px;
+    font-family: cambria;
+  }
+  #sandesh{
+      color: crimson;
+      margin: 0px 0px 0px 5px;
+      font-weight: bold;
+  }

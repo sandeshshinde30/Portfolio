@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+<link rel="stylesheet" href="../CSS/register.css">
+    <title>Register-Sanventure</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg " id="navbar">
+            <img src="../Image/logo.jpg" alt="Logo" height="50px">
+             <h2>Sanventure</h2>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../HTML/Home.html" id="home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="../HTML/About.html">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="../HTML/Contact us.html">Contact Us</a>
+                </li>
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-btn">Search</button>
+              </form> -->
+            </div>
+          </nav>
+          </header>
+
+    <div class="form-group">
+    <h2 id="reg">Register here</h2>
+    <form action="">
+        
+        <p>First Name  </p>
+        <input type="text" id="fname" placeholder="Enter First Name">
+        <p>Last Name</p>
+        <input type="text" id="lname" placeholder="Enter Last Name">
+        <p>Email </p>
+        <input type="text" id="email" placeholder="Enter Email">
+        <p>Password  </p>
+        <input type="password" id="pass" placeholder="Enter Password">
+        <p>Re-type Password  </p>
+        <input type="password" id="repass" placeholder="Re-Enter Password">
+        <p>Select Gender  </p>
+        <input type="radio" id="male" class="Gender" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" class="Gender" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><input type="submit" id="submit" class="btn btn-primary" value="Register" onclick="alert('Registration Successful')">
+        <p id="para">Already registered? <a href="login.html" id="log">Log in</a></p>
+
+        
+    </form>
+</div>
+
+<footer>
+  <div id="footer1">
+    <p id="para1">Copyrite 2022 | Sanventure <span id="devloper">Devloped by <span id="sandesh">  Sandesh Shinde</span></span></p>
+  </div>
+</footer>
+
+</body>
+</html>

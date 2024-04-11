@@ -1,0 +1,99 @@
+body{
+    background-image: url('../Image/background.jpg');
+    
+}
+
+/* Navbar */
+#navbar{
+    background-color: black;
+    
+}
+header{
+    position: sticky;
+    top:0%;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+
+h2{
+    color: rgb(25, 0, 255);
+    margin-left: 10px;
+}
+
+#search-btn{
+    color:white;
+}
+
+#home{
+    margin-left: 20px;
+}
+
+/*Website Name*/
+
+h1{
+    margin: 150px 20px 20px 700px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+#name{
+    color:crimson;
+    text-shadow: 1.3px 1.3px crimson;
+}
+
+#btn-explore{
+    border-radius: 20px;
+    border-color:rgb(159, 0, 199);
+    background: transparent;
+    color:rgb(159, 0, 199);
+    width: 200px;
+    height: 40px;
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#btn-login{
+    border-radius: 20px;
+    border-color:blue;
+    background: transparent;
+    color:blue;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#btn-login:hover{
+    background-color: rgba(185, 28, 224, 0.61);
+}
+
+#btn-explore:hover{
+    background-color: rgba(0, 0, 255, 0.548);
+}
+
+#footer1{
+    background-color:wheat;
+    margin: 220px 0px 0px 0px;
+    height: 50px;
+    padding: 10px;
+}
+
+p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin: 0px 0px 0px 50px;
+}
+
+#devloper{
+  margin: 0px 0px 0px 300px;
+}
+
+#sandesh{
+    color: crimson;
+    margin: 0px 0px 0px 5px;
+    font-weight: bold;
+}

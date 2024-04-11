@@ -1,0 +1,100 @@
+#navbar{
+    background-color: black;
+    
+}
+header{
+    position: sticky;
+    top:0%;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+
+#webname{
+    color: rgb(25, 0, 255);
+    margin-left: 10px;
+}
+
+#search-btn{
+    color:white;
+}
+
+#home{
+    margin-left: 20px;
+}
+
+#para1{
+   margin: 100px 20px 20px 750px;
+   font-size: 20px;
+  
+}
+
+#para2{
+    margin: 150px 20px 20px 20px;
+    font-size: 20px;
+}
+
+#para3{
+    margin: 150px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.about{
+    margin: 20px;
+}
+
+#about1{
+    float: left;
+}
+
+#about2{
+ float: right;
+ margin: 50px 20px 20px 20px;
+}
+
+#about3{
+    float: left;
+    margin: 0px 20px 20px 20px ;
+}
+
+#mission{
+    margin: 25px 50px 0px 850px;
+    color: rgb(2, 19, 255);
+   
+}
+
+hr{
+    margin: 125px 0px 0px 0px;
+}
+
+#hr{
+    margin:150px 0px 0px 0px;
+}
+
+h1{
+    margin: 20px;
+    color:deeppink;
+}
+
+#footer1{
+    background-color:wheat;
+    margin: 220px 0px 0px 0px;
+    height: 50px;
+    padding: 10px;
+}
+
+p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin: 0px 0px 0px 50px;
+}
+
+#devloper{
+  margin: 0px 0px 0px 300px;
+}
+
+#sandesh{
+    color: crimson;
+    margin: 0px 0px 0px 5px;
+    font-weight: bold;
+}
